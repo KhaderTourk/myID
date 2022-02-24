@@ -12,11 +12,17 @@ fun main(args: Array<String>): Unit =
 
 @Suppress("unused")
 fun Application.module() {
+//    val database = Database.connect(
+//        url = "jdbc:mysql://localhost:3306/databasefortest",
+//        driver = "com.mysql.cj.jdbc.Driver",
+//        user = "root",
+//        password = ""
+//    )
     val database = Database.connect(
-        url = "jdbc:mysql://localhost:3306/databasefortest",
+        url = "jdbc:mysql://eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ycym0h06or0v206s",
         driver = "com.mysql.cj.jdbc.Driver",
-        user = "root",
-        password = ""
+        user = "p71vmz3w4ilo2adk",
+        password = "qve00ehsoi063am8"
     )
 
     database.insert(ExampleEntity){
