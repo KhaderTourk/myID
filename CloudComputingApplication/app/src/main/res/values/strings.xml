@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cloud Computing Application</string>
+    <string name="add_new_contact">ADD NEW CONTACT</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="number">Number</string>
+    <string name="generate">generate</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/experiment_bg.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_material_black.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_material_gray.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_material_white.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_mesh.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_spoon_black.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_spoon_white.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_tripod_and_mesh.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/ic_tripod_empty.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/splash_bg.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/tool_name_bg.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/drawable/tools_bg.xml" value="0.134" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/activity_csplash.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/activity_experiments.xml" value="0.33" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/activity_lab2.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/activity_lab3.xml" value="0.25" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/activity_lab4.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/experiment_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/mode_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/TOSHIBA/AndroidStudioProjects/MMT/app/src/main/res/layout/toolbar_custom.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/experiment_bg.xml" value="0.1835" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_e_arm.xml" value="0.113" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_matereal.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_material_white.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_mesh.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_mixed.xml" value="0.113" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_spone.xml" value="0.113" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_spoon_black.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_spoon_white.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_tripod_and_mesh.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/ic_tripod_empty.xml" value="0.1715" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/splash_bg.xml" value="0.1835" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/tool_name_bg.xml" value="0.1835" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/drawable/tools_bg.xml" value="0.1835" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/layout/activity_csplash.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/layout/activity_experiments.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/layout/experiment_item.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/layout/mode_item.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TRYAQ/MMT/app/src/main/res/layout/toolbar_custom.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

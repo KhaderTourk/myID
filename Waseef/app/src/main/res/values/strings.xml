@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Waseef</string>
+    <string name="logo">Logo</string>
+    <string name="asset">ASSET</string>
+    <string name="property">PROPERTY</string>
+    <string name="facility">FACILITY</string>
+    <string name="management_services">MANAGEMENT SERVICES</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invoices">Invoices</string>
+    <string name="collected_invoices">Collected Invoices</string>
+    <string name="pending_invoices">Pending Invoices</string>
+    <string name="log_out">Log out</string>
+    <string name="qar">QAR</string>
+    <string name="_150_00">150.00</string>
+    <string name="pending">pending</string>
+    <string name="add_invoice">Add Invoice</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="username">UserName</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="fullname">FullName</string>
+    <string name="mobile">Mobile</string>
+    <string name="description">Description</string>
+    <string name="_0_00">0.00</string>
+    <string name="send">Send</string>
+    <string name="invoice_submitted">Invoice Submitted</string>
+    <string name="ok">Ok</string>
+    <string name="search">Search</string>
+    <string name="by_invoice">By Invoice</string>
+    <string name="by_work_order">By Work Order</string>
+    <string name="xxx">...XXX...</string>
+    <string name="project_code">Project Code:</string>
+    <string name="contract_number">Contract Number:</string>
+    <string name="invoice_number">Invoice Number:</string>
+    <string name="charge_type">Charge Type:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="paid_amount">Paid Amount:</string>
+    <string name="pending_amount">Pending Amount:</string>
+    <string name="invoice_date">Invoice Date:</string>
+    <string name="invoice_notes">Invoice Notes:</string>
+    <string name="note">Note</string>
+    <string name="send_invoice">Send Invoice</string>
+    <string name="new_note">New Note:</string>
+    <string name="empty">......</string>
+</resources>

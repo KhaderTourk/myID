@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">المختبر العلمي الافتراضي</string>
+    <string name="todo">TODO</string>
+    <string name="_2022">حقوق النشر محفوظة 2022@</string>
+    <string name="mm">المختبر العلمي الإفتراضي</string>
+    <string name="mm2">مختبر يهدف لتقريب الطالب من الصورة العلمية أكثر فأكثر.</string>
+    <string name="title">تفاعل الزنك و الكبريت</string>
+    <string name="date">20/5</string>
+    <string name="detaile">تفاصيل</string>
+    <string name="es">تجارب الكيمياء</string>
+    <string name="restart">مرة أخرى</string>
+    <string name="zn_s_s_s_zns_s"><![CDATA[Zn(s) + S(s) ——> ZnS(s)]]></string>
+    <string name="znso4_zno_so2_1_2_o">ZnSO4 –Δ→ ZnO + SO2 + 1/2 O</string>
+    <string name="ffd">بعض خصائص عنصر الكالسيوم</string>
+    <string name="ttr">بعض الخصائص لعنصر الكبريت</string>
+    <string name="wwe">تفاعل الكبريت مع الخارصين</string>
+    <string name="_15_7">15/7</string>
+    <string name="_4_6">4/6</string>
+    <string name="_1_6">1/6</string>
+</resources>

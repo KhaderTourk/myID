@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <pt.tornelas.segmentedprogressbar.SegmentedProgressBar
+        android:id="@+id/spb"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_margin="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:segmentBackgroundColor="@color/white"
+        app:segmentCornerRadius="5dp"
+        app:segmentMargins="@dimen/default_segment_margin"
+        app:segmentSelectedBackgroundColor="@color/purple_200"
+        app:segmentSelectedStrokeColor="@color/purple_700"
+        app:segmentStrokeColor="@color/purple_500"
+        app:segmentStrokeWidth="12dp"
+        app:timePerSegment="2000"
+        app:totalSegments="5" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu"
+        app:labelVisibilityMode="unlabeled"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

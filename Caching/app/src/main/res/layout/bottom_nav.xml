@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:baselineAligned="false"
+    android:background="@color/light"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:id="@+id/btn_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/line_home"
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="@color/prime"/>
+
+        <ImageView
+            android:id="@+id/btn_home_ic"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_home"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            app:tint="@color/gray"
+            android:contentDescription="@string/images" />
+
+        <TextView
+            android:id="@+id/btn_home_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:text="@string/home"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_information"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/line_information"
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="@color/prime"/>
+
+        <ImageView
+            android:id="@+id/btn_information_ic"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_location"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            app:tint="@color/gray"
+            android:contentDescription="@string/images" />
+
+
+        <TextView
+            android:id="@+id/btn_information_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:text="@string/locations"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_history"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/line_history"
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="@color/prime"/>
+
+        <ImageView
+            android:id="@+id/btn_history_ic"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_calendar"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            app:tint="@color/gray"
+            android:contentDescription="@string/images" />
+
+        <TextView
+            android:id="@+id/btn_history_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray"
+            android:text="@string/history"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

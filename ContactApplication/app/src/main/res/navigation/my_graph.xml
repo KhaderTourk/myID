@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/allContactsFragment">
+
+    <fragment
+        android:id="@+id/allContactsFragment"
+        android:name="com.example.contactapplication.AllContactsFragment"
+        android:label="contacts"
+        tools:layout="@layout/fragment_all_contacts" >
+        <action
+            android:id="@+id/action_allContactsFragment_to_addNewContactFragment"
+            app:destination="@id/addNewContactFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+        <action
+            android:id="@+id/action_allContactsFragment_to_updateContactFragment"
+            app:destination="@id/updateContactFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addNewContactFragment"
+        android:name="com.example.contactapplication.AddNewContactFragment"
+        android:label="new_contact"
+        tools:layout="@layout/fragment_add_new_contact" >
+        <action
+            android:id="@+id/action_addNewContactFragment_to_allContactsFragment"
+            app:destination="@id/allContactsFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+    </fragment>
+    <fragment
+        android:id="@+id/updateContactFragment"
+        android:name="com.example.contactapplication.UpdateContactFragment"
+        android:label="update_contact"
+        tools:layout="@layout/fragment_update_contact" >
+        <action
+            android:id="@+id/action_updateContactFragment_to_allContactsFragment"
+            app:destination="@id/allContactsFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+    </fragment>
+</navigation>

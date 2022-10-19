@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">دليل القدس</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">الرئيسية</string>
+    <string name="locations">معالم القدس</string>
+    <string name="history">تاريخ القدس</string>
+    <string name="main_name">دليل القدس</string>
+    <string name="images">images</string>
+    <string name="test_text">Test Text</string>
+    <string name="new_today">القدس اليوم..</string>
+    <string name="read_more">قراءة المزيد..</string>
+</resources>

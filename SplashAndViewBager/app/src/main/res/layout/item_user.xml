@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="8dp"
+    android:layout_marginEnd="16dp" android:layout_marginTop="12dp"
+    android:layout_marginStart="16dp" android:layout_height="wrap_content"
+    android:layout_width="match_parent" android:id="@+id/cardview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/second"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/user_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="KH"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/image_circle"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:weightSum="5"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="3"
+                android:id="@+id/tv_user_name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/dark_prime"
+                android:text="f.name"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_user_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/prime"
+                android:padding="2dp"
+                android:text="phone number"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Match Score Tool</string>
+    <string name="text_label_1">text_label_1</string>
+    <string name="text_label_2">text_label_2</string>
+    <string name="text_label_3">text_label_3</string>
+    <string name="text_label_4">text_label_4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContactApplication</string>
+    <string name="add_new_contact">ADD NEW CONTACT</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="number">Number</string>
+    <string name="generate">generate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

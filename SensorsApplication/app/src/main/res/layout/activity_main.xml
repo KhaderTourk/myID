@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_Add_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:ems="12"
+        android:textSize="22sp"
+        android:hint="قم بإدخال السؤال هنا"/>
+
+    <Button
+        android:id="@+id/btn_Add_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:paddingStart="25dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:textSize="30sp"
+        android:textColor="#001199"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="40dp"
+        android:paddingStart="25dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="25dp"/>
+
+</LinearLayout>

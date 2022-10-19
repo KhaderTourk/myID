@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cloudcomputingapplication.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_listFragment"
+            app:destination="@id/listFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+    </fragment>
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.example.cloudcomputingapplication.SuccessFragment"
+        android:label="Update"
+        tools:layout="@layout/fragment_success" >
+        <argument
+            android:name="hash"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_successFragment_to_listFragment"
+            app:destination="@id/listFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.cloudcomputingapplication.list.ListFragment"
+        android:label="contacts"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+        <action
+            android:id="@+id/action_listFragment_to_successFragment"
+            app:destination="@id/successFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:exitAnim="@anim/to_top"
+            app:popEnterAnim="@anim/from_top"
+            app:popExitAnim="@anim/to_bottom"/>
+    </fragment>
+</navigation>

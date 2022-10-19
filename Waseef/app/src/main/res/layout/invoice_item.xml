@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:maxEms="12"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:maxEms="17"
+        android:maxLines="2"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/status_p"
+        android:layout_width="94dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/shape_status"
+        android:text="@string/pending"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:backgroundTint="@color/second_100"
+        app:layout_constraintBottom_toTopOf="@+id/price"
+        app:layout_constraintRight_toRightOf="@+id/price"
+        app:layout_constraintLeft_toLeftOf="@+id/price_type"/>
+    <TextView
+        android:id="@+id/status_c"
+        android:layout_width="94dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/shape_status"
+        android:text="@string/pending"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/price"
+        app:layout_constraintRight_toRightOf="@+id/price"
+        app:layout_constraintLeft_toLeftOf="@+id/price_type"/>
+    <TextView
+        android:id="@+id/status_f"
+        android:layout_width="94dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/shape_status"
+        android:text="@string/pending"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:backgroundTint="@color/second"
+        app:layout_constraintBottom_toTopOf="@+id/price"
+        app:layout_constraintRight_toRightOf="@+id/price"
+        app:layout_constraintLeft_toLeftOf="@+id/price_type"/>
+
+    <TextView
+        android:id="@+id/price_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:maxLines="1"
+        android:text="@string/qar"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/price"
+        app:layout_constraintEnd_toStartOf="@+id/price"
+        app:layout_constraintTop_toTopOf="@+id/price" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:text="@string/_150_00"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

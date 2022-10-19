@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/footballFragment">
+
+    <fragment
+        android:id="@+id/footballFragment"
+        android:name="com.to0lfor.matches.FootballFragment"
+        android:label="fragment_football"
+        tools:layout="@layout/fragment_football" />
+    <fragment
+        android:id="@+id/basketballFragment"
+        android:name="com.to0lfor.matches.BasketballFragment"
+        android:label="fragment_basketball"
+        tools:layout="@layout/fragment_basketball" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.to0lfor.matches.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/calculateFragment"
+        android:name="com.to0lfor.matches.CalculateFragment"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/nsewFootEventFragment"
+        android:name="com.to0lfor.matches.NsewFootEventFragment"
+        android:label="fragment_nsew_foot_event"
+        tools:layout="@layout/fragment_nsew_foot_event" />
+    <fragment
+        android:id="@+id/newBaskEventFragment"
+        android:name="com.to0lfor.matches.NewBaskEventFragment"
+        android:label="fragment_new_bask_event"
+        tools:layout="@layout/fragment_new_bask_event" />
+    <fragment
+        android:id="@+id/startFootFragment"
+        android:name="com.to0lfor.matches.StartFootFragment"
+        android:label="fragment_start_foot"
+        tools:layout="@layout/fragment_start_foot" />
+    <fragment
+        android:id="@+id/startBaskFragment"
+        android:name="com.to0lfor.matches.StartBaskFragment"
+        android:label="fragment_start_bask"
+        tools:layout="@layout/fragment_start_bask" />
+</navigation>

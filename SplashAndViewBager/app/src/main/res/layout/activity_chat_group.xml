@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/prime"
+tools:context=".screens.chatScreens.ChatGroup">
+
+
+<LinearLayout
+    android:id="@+id/ll_layout_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/second"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_message_group"
+        android:inputType="textShortMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight=".5"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@android:color/white"
+        android:hint="Type a message..."
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_send_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/prime"
+        android:text="Send"
+        android:textColor="@color/second" />
+
+</LinearLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_messages_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/ll_layout_bar"
+    android:layout_below="@+id/dark_divider"
+    tools:itemCount="20"
+    tools:listitem="@layout/item_message" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@color/second"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:id="@+id/dark_divider">
+    <ImageView
+        android:id="@+id/btn_back_from_chat_group"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/tv_chat_group_img"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:textColor="@color/second"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/image_circle"/>
+    <TextView
+        android:id="@+id/tv_chat_group_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_prime"
+        android:textSize="16sp"
+        android:text="group name"
+        android:layout_marginStart="4dp"/>
+</LinearLayout>
+
+
+</RelativeLayout>
