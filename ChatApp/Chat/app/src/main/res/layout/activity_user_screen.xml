@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/second"
+    tools:context=".screens.HomeScreens.UserScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/prime"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bar">
+
+        <TextView
+            android:id="@+id/tv_users_my_img"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:textColor="@color/prime"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/round_img_to_bar"/>
+        <TextView
+            android:id="@+id/tv_users_my_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/second"
+            android:textSize="16sp"
+            android:text="My Name"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_search"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_search"
+        />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_users"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bar"
+        android:layout_above="@id/bottom_navigation_users"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="0dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_users"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_users"
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+            android:layout_width="match_parent"
+            android:soundEffectsEnabled="true"
+            app:itemTextColor="@color/second"
+            app:itemIconTint="@color/second"
+            android:background="@color/prime"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation_menu" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/second"
+    tools:context=".screens.HomeScreens.GroupsScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/prime"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bar">
+
+        <TextView
+            android:id="@+id/tv_groups_my_img"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:textColor="@color/prime"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/round_img_to_bar"/>
+        <TextView
+            android:id="@+id/tv_groups_my_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/second"
+            android:textSize="16sp"
+            android:text="My Name"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/bar"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/btn_create_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_general_background"
+            android:text="  New Group   +  "
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_groups"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/bottom_navigation_groups"
+        android:layout_margin="0dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_groups"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_groups"
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+            android:layout_width="match_parent"
+            android:soundEffectsEnabled="true"
+            app:itemTextColor="@color/second"
+            app:itemIconTint="@color/second"
+            android:background="@color/prime"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation_menu" />
+
+
+</RelativeLayout>
